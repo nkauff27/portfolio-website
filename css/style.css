@@ -1,48 +1,97 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
 body {
-	line-height: 1;
+  font-family: 'Lato', sans-serif;
+  color: rgb(49, 49, 49);
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 1.6;
 }
-ol, ul {
-	list-style: none;
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+  color: #31405D;
 }
-blockquote, q {
-	quotes: none;
+
+h1{
+	font-size: 3rem;
+	font-weight: 600;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+h2{
+	font-size: 2.5rem;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+h3{
+	font-size: 2rem;
 }
+
+.intro_text {
+	font-size: 1.7rem;
+	font-weight: 300;
+	line-height: 2.2rem;
+
+}
+
+p {
+	font-size: 1.2rem;
+	font-weight: 400;
+	line-height: 1.9rem;
+}
+
+img {
+  width: 100%;
+}
+
+a{
+  color: #31405D;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #5D0E2F;
+  text-decoration: underline;
+}
+
+.button.contact {
+	background-color: transparent;
+	color: #5D0E2F;
+	text-transform: uppercase;
+	border: 2px solid #5D0E2F;
+	border-radius: 3px;
+	padding: 10px;
+  }
+
+.button.contact:hover {
+	background-color: #5D0E2F;
+	color: #ffffff;
+	text-decoration: none;
+  }
+
+.button.readmore {
+	background-color: transparent;
+	color: #31405D;
+	border: 2px solid #31405D;
+	border-radius: 3px;
+	padding: 10px;
+  }
+
+.button.readmore:hover {
+	background-color: #31405D;
+	color: #ffffff;
+	text-decoration: none;
+  }
+
+.button.resume {
+	background-color: transparent;
+	color: #31405D;
+	text-transform: uppercase;
+	border: 2px solid #31405D;
+	border-radius: 3px;
+	padding: 10px;
+  }
+
+.button.resume:hover {
+	background-color: #31405D;
+	color: #ffffff;
+	text-decoration: none;
+  }
