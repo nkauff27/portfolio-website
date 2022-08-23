@@ -13,13 +13,13 @@
   
 </head>
 <body>
-  <!--For the header-->
+
   <header>
-    <!--For the navigation-->
-    <div>
-      <a href="index.html"><img src="img/logo/nk_logo.png" alt="Nicole Kauffman Art and Design" ></a>
+
+    <div class="container">
+      <a href="index.html"><img class="logo" src="img/logo/nk_logo_sm_blue.png" alt="Nicole Kauffman Art and Design" ></a>
       <nav>
-      <ul>
+      <ul class="navigation">
         <li><a href="work.html">Work</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="#contact">Contact</a></li> 
@@ -30,23 +30,17 @@
     
   </header>
   <main>
-    <section>
-      <div>
-        <h1>
-          About Me
-        </h1>
-      </div>
-    </section>
 
-    <section>
-      <div class="container">
-        <picture>
-          <source srcset="img/profile img/nicole_x2.png" media="(max-width:767px)">
-          <img src="img/profile_img/nicole_x1.png" alt="Perfect Properties Image">
-        </picture>
-        <div>
-          <div>
-            <h2>My Story</h2>
+    <div id="about">
+      
+        <h2>
+          About Me
+        </h2>
+    
+
+      <div class="about_container">
+
+          <div class="about_text">
             <p>Mom. Wife. Friend. Keeper of pet birds. Lover of baked goods. Magician in training.</p>
             <p>Mine is an interesting story with some twist and turns and maybe a dragon along the way.
               I’ve always loved art and would find time to doodle or create some masterpiece even at an early age. Going to college I concentrated on obtaining a degree in Biology as, according to some, doing anything with the word “art” in in was an immediate one way ticket to a life of the starving artist. After some time past, and I came to my senses of the direction I wanted in life, I enrolled in evening courses and achieved a Masters Certificate in Visual Communications and 3D Design through Johns Hopkins University. This choice paved the way for opportunities within the graphic design realm and my life quickly became better.</p> 
@@ -55,11 +49,16 @@
             </p>
             <p>If I’m not at home doing all that cool family stuff and baking up the next batch of picture perfect cookies and cakes, I’m at work...making websites, creating surveys, posters, graphics, and the occasional animation. While not getting too much into the details, I make things functional, optimal, and exceptional for our awesome customers.          
             </p>
+            </div>
+            <picture class="profile">
+              <source srcset="img/profile img/nicole_x2.png" media="(max-width:767px)">
+              <img src="img/profile_img/nicole_x1.png" alt="Perfect Properties Image">
+            </picture>
           </div>
-          <div>
-            <h2>Skills & Tools</h2>
-            <div>
-              <div>
+          <h2>Skills & Tools</h2>
+          <div class="container_skills">         
+      
+              <div class="skills">
                 <h3>Relevant Skills</h3>
                 <ul>
                 <li>Graphic Design</li>
@@ -70,8 +69,10 @@
                 <li>Web Development: HTML/CSS & JavaScript</li>
 
                 </ul>
+             
               </div>
-              <div>
+           
+          <div class="tools">
                 <h3>Tools</h3>
                 <ul>
                   <li>Adobe XD</li>
@@ -85,25 +86,19 @@
                 </ul>
 
               </div>
-              <div>
-                <a href="files/Nicole Kauffman_resume_x1.pdf.pdf" target="_blank" class="button resume">Resume</a>
-              </div>
-            </div>
+
+           <div>
+            <h3>My Resume</h3>
+            <a href="files/Nicole Kauffman_resume_x1.pdf.pdf" target="_blank" class="button resume">Resume</a>
+          </div>  
           </div>
-        </div>
- 
-
-
-      
+  
+    </div>
       </div>
-    </section>
-
-
-
   </main>
 
   <footer id="contact">
-    <div>
+    <div class="container">
       <h2>
         Get in Touch
       </h2>
@@ -113,10 +108,10 @@
       <div>
         <a href="mailto:nkauffman27@yahoo.com" class="button contact">Email me</a>
       </div>
-      <div>
+      <div class="footer_icon">
         <ul>
           <li>
-<!--Social Media Layout and Placeholders-->
+
             <a href="https://www.linkedin.com/in/nicole-kauffman-58aa7382/">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
         </a>
@@ -137,6 +132,7 @@
   
     </div>
   </footer>
+  
   
 </body>
 </html>
