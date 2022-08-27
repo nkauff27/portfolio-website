@@ -384,8 +384,35 @@ footer{
 
 
 
+/******************************WORK**************************************/
 
+#work h2 {
+	text-align: center;
+}
 
+.mid_prototype {
+	width: 50%;
+	height: auto;
+
+}
+
+.mid_display{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+
+}
+
+.mid_display picture{
+	text-align: center;
+	
+}
+
+.high_prototype {
+	width: 50%;
+	height: auto;
+}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -423,6 +450,19 @@ nav {
 	justify-content: space-evenly;
 
 }
+
+.col-md-2 {
+	width: 50%;
+	padding: 10px;
+}
+
+.project{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+
 
 }
 	
@@ -497,6 +537,15 @@ p {
 	height: auto;
 }
 
+.project{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.project h2{
+	text-align: center;
+}
+
 }
 
 
@@ -541,6 +590,11 @@ p {
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 
+}
+
+.project{
+	display: flex;
+	flex-wrap: wrap;
 }
 
 	}
