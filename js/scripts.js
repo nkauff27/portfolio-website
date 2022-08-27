@@ -1,0 +1,1 @@
+console.log("Hi, my name is Nicole, welcome to my portfolio site")
