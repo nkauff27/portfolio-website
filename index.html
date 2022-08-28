@@ -15,19 +15,21 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
   <title>Nicole Kauffman Art and Design</title>
 </head>
 <body>
-
   <header>
 
     <div class="container">
+      <div class="navtoggle" id="myNavtoggle">
       <a href="index.html"><img class="logo" src="img/logo/nk_logo_sm_blue.png" alt="Nicole Kauffman Art and Design" ></a>
       <nav>
       <ul class="navigation">
         <li><a href="work.html">Work</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="#contact">Contact</a></li> 
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li> 
       </ul>      
       </nav>
 
@@ -2031,8 +2033,15 @@
       <p>Please get in touch. Call: 703-999-9999</p>
       <p>Prefer sending an email?</p>
 
-      <div>
-        <a href="mailto:nkauffman27@yahoo.com" class="button contact">Email me</a>
+      <div class="btn_flex">
+        <button class="btn">
+          <i class='bx bx-send'></i>
+          <span class="text"></span><a href="mailto:nkauffman27@yahoo.com">
+            Email Me</a> </span>
+          <span class="loading-animate"></span>
+        </button>
+
+        
       </div>
       <div class="footer_icon">
         <ul>
@@ -2058,7 +2067,7 @@
   
     </div>
   </footer>
-  
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>  
 </body>
 </html>
