@@ -382,7 +382,20 @@ footer{
 
 }
 
+.images {
+	cursor: pointer;
+	border-radius: 50%;
 
+	filter:grayscale(100%);
+	transition: all 800ms;
+	
+}
+
+.images:hover{
+	filter:grayscale(0%);
+	
+
+}
 
 /******************************WORK**************************************/
 
@@ -413,6 +426,19 @@ footer{
 	width: 50%;
 	height: auto;
 }
+
+[class*="col-"] {
+	float: left;
+	padding: 15px;
+}
+
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -460,6 +486,16 @@ nav {
 	display: flex;
 	flex-wrap: wrap;
 	
+}
+
+.images {
+	cursor: pointer;
+	border-radius: 50%;
+
+	filter:grayscale(100%);
+	transition: all 800ms;
+	margin-left: 25px;
+
 }
 
 
